@@ -1,8 +1,7 @@
 iframe {
   position: relative;
   width: 50%;
-  aspect-ratio: 16 / 9;
-  /* adding-top: 56.25%; */ /* 16:9 Aspect Ratio */
+  aspect-ratio: 3 / 2;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
