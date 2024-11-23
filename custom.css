@@ -1,26 +1,37 @@
 iframe {
   position: relative;
-  width: 50%;
+  width: 100%;
   aspect-ratio: 3 / 2;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
 @media (min-width: 600px) {
 
   .left {
     float: left;
-    padding-right: 1em;
+    margin-right: 1em;
   }
 
   .right {
     float: right;
-    padding-left: 1em;
+    margin-left: 1em;
   }
 
   .left, .right {
     width: 50%;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
+  }
+
+  .box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  }
+
+  .medium {
+    width: 50%;
+  }
+
+  .small {
+    width: 33%;
   }
 
 }
